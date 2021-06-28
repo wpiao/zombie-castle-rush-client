@@ -1,11 +1,12 @@
 import { TerminalUI } from "./TerminalUI";
 import { io } from "socket.io-client";
 
+// local server
+// const serverAddress = "http://localhost:3000";
 const serverAddress = "https://zombie-castle-rush-server.herokuapp.com/";
 const container = document.getElementById("terminal-container");
 const button = document.getElementById("play");
 container.style.display = "none";
-// const serverAddress = "http://localhost:3000";
 
 function connectToSocket(serverAddress) {
   return new Promise(res => {

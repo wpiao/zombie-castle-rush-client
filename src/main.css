@@ -1,10 +1,24 @@
 #terminal-container {
-  width: 60%;
-  margin: auto
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #play {
   display: block;
   margin-top: 15px;
+  margin-top: 15px;
   margin: auto;
+}
+
+img {
+  width: 80%;
+  height: 600px
+}
+
+#game_image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }

@@ -8,8 +8,23 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Zombie Castle Rush</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="game_image">
+      <img src="game.png" alt="game">
+    </div>
+
     <div id="terminal-container"></div>
-    <button id="play">Play Game</button>
+    <button id="play" type="button" class="btn btn-primary">Play Game</button>
     <script src="src/index.js"></script>
   </body>
 </html>
